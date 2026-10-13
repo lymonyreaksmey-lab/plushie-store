@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Plushie Store - Toy Platform</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+
+    <header class="main-header">
+      <div class="header-container">
+        <!-- Header Left: Logo -->
+        <div class="header-left">
+          <a href="#" class="logo">
+            <i class="fa-solid fa-paw"></i>
+            PlushieStore
+          </a>
+        </div>
+
+        <!-- Header Center: Search -->
+        <div class="header-center">
+          <div class="search-box">
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Search for plushies..."
+            />
+
+            <button class="search-btn" title="Search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Header Right: Icons -->
+        <div class="header-right">
+          <a href="#" class="action-btn" title="Favorites">
+            <i class="fa-regular fa-heart"></i>
+          </a>
+
+          <a href="#" class="action-btn" title="Shopping Cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+
+          <a href="#" class="action-btn" title="My Account">
+            <i class="fa-regular fa-user"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <nav class="main-nav">
+      <a href="#" class="active">
+        <i class="fa-solid fa-house"></i>
+        Home
+      </a>
+
+      <a href="#products">
+        <i class="fa-solid fa-paw"></i>
+        All Plushies
+      </a>
+
+      <a href="#products">
+        <i class="fa-solid fa-fire"></i>
+        New Arrivals
+      </a>
+
+      <a href="#products">
+        <i class="fa-solid fa-crown"></i>
+        Best Sellers
+      </a>
+
+      <a href="#promotions">
+        <i class="fa-solid fa-tag"></i>
+        Sale
+      </a>
+
+      <a href="#footer">
+        <i class="fa-regular fa-user"></i>
+        My Account
+      </a>
+    </nav>
+
+    <main class="container">
+
+      <section class="hero">
+        <!-- Hero Text -->
+        <div class="hero-text">
+          <h4>Welcome to PlushieStore!</h4>
+
+          <h1>Cute Plushies for a Happier Day</h1>
+
+          <p>
+            Soft, cuddly, and always by your side. Find your favorite plushie
+            and bring home more happiness!
+          </p>
+
+          <a href="#products" class="shop-btn">
+            <i class="fa-solid fa-bag-shopping"></i>
+            Shop Now
+          </a>
+        </div>
+
+        <!-- Hero Image -->
+        <div class="hero-image">
+          <img src="https://i.pinimg.com/1200x/58/b9/41/58b941660a3a759a3e439db31af47bcf.jpg" alt="Cute plushie toys" />
+        </div>
+      </section>
+
+      <section class="services">
+
+        <div class="service-card">
+          <div class="icon">
+            <i class="fa-solid fa-truck-fast"></i>
+          </div>
+
+          <h3>Fast & Free Shipping</h3>
+
+          <p>On orders over $30</p>
+        </div>
+
+        <div class="service-card">
+          <div class="icon">
+            <i class="fa-solid fa-shield-halved"></i>
+          </div>
+
+          <h3>Secure Payment</h3>
+
+          <p>100% safe and secure</p>
+        </div>
+
+        <div class="service-card">
+          <div class="icon">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+
+          <h3>Cute & High Quality</h3>
+
+          <p>Soft, durable, and huggable</p>
+        </div>
+
+        <div class="service-card">
+          <div class="icon">
+            <i class="fa-solid fa-comments"></i>
+          </div>
+
+          <h3>24/7 Customer Support</h3>
+
+          <p>We're here to help</p>
+        </div>
+      </section>
+
+      <div class="section-heading">
+        <h2>
+          <i class="fa-solid fa-fire"></i>
+          Popular Plushies
+        </h2>
+
+        <a href="#products" class="view-all">
+          View All
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <!-- Product List -->
+      <section class="products" id="products">
+
+        <div class="product-card">
+          <span class="badge">Best Seller</span>
+
+          <img src="https://i.pinimg.com/1200x/4d/df/73/4ddf73d83c7a839680a611f9b98428d2.jpg" alt="Brown bear plushie" />
+
+          <h3>Brown Bear Plushie</h3>
+
+          <p class="price">$18.00</p>
+
+          <p class="rating">★★★★★</p>
+
+          <button class="add-cart-btn">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="product-card">
+          <span class="badge">Best Seller</span>
+
+          <img src="https://i.pinimg.com/1200x/3d/ea/4b/3dea4b4a089772990d68da7b8da1cf96.jpg" alt="Bunny plushie" />
+
+          <h3>Bunny Plushie</h3>
+
+          <p class="price">$16.00</p>
+
+          <p class="rating">★★★★★</p>
+
+          <button class="add-cart-btn">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="product-card">
+          <span class="badge">New</span>
+
+          <img src="https://i.pinimg.com/1200x/8f/f8/2a/8ff82a8e3329e2adbc350f6bb05a1a6f.jpg" alt="Yellow chick plushie" />
+
+          <h3>Chick Plushie</h3>
+
+          <p class="price">$12.00</p>
+
+          <p class="rating">★★★★★</p>
+
+          <button class="add-cart-btn">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="product-card">
+          <span class="badge">Popular</span>
+
+          <img src="https://i.pinimg.com/736x/ee/82/86/ee8286a84c723463aa600411c21d3a84.jpg" alt="Panda plushie" />
+
+          <h3>Panda Plushie</h3>
+
+          <p class="price">$17.00</p>
+
+          <p class="rating">★★★★★</p>
+
+          <button class="add-cart-btn">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Add to Cart
+          </button>
+        </div>
+      </section>
+
+      <section class="promo-section" id="promotions">
+
+        <div class="promo-box promo-1">
+          <span class="promo-tag-absolute"> Special Offer </span>
+
+          <h3 class="promo-title">Cute Teddy Bears</h3>
+
+          <p class="promo-desc">
+            Discover our soft and adorable teddy bears. Perfect for gifts and
+            everyday cuddles.
+          </p>
+
+          <a href="#products" class="promo-btn">
+            Shop Now
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="promo-box promo-2">
+          <span class="promo-tag-absolute"> Up to -25% </span>
+
+          <h3 class="promo-title">Bunny Plushies</h3>
+
+          <p class="promo-desc">
+            Find your favorite bunny plushie with special discounts and lovely
+            designs.
+          </p>
+
+          <a href="#products" class="promo-btn">
+            Explore More
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer" id="footer">
+      <div class="container">
+
+        <div class="footer-col">
+          <h4 class="footer-title">
+            <i class="fa-solid fa-paw" style="color: #ff8db5"></i>
+            PlushieStore
+          </h4>
+
+          <p style="margin-bottom: 12px; line-height: 1.6">
+            Your happy place for cute and soft plushies. Bring a little
+            happiness into every day!
+          </p>
+
+          <p>
+            <i class="fa-solid fa-location-dot"></i>
+            Phnom Penh, Cambodia
+          </p>
+
+          <p>
+            <i class="fa-solid fa-phone"></i>
+            +855 95542656
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">Quick Links</h4>
+
+          <ul class="footer-links">
+            <li>
+              <a href="#">Home</a>
+            </li>
+
+            <li>
+              <a href="#products">All Plushies</a>
+            </li>
+
+            <li>
+              <a href="#products">Best Sellers</a>
+            </li>
+
+            <li>
+              <a href="#promotions">Special Offers</a>
+            </li>
+
+            <li>
+              <a href="#footer">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">Customer Service</h4>
+
+          <ul class="footer-links">
+            <li>
+              <a href="#">Delivery Information</a>
+            </li>
+
+            <li>
+              <a href="#">Return Policy</a>
+            </li>
+
+            <li>
+              <a href="#">How to Order</a>
+            </li>
+
+            <li>
+              <a href="#">Frequently Asked Questions</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">Newsletter</h4>
+
+          <p style="font-size: 13px; margin-bottom: 8px">
+            Get the latest plushie news and special offers.
+          </p>
+
+          <div class="footer-newsletter">
+            <input
+              type="email"
+              class="newsletter-input"
+              placeholder="Enter your email..."
+            />
+
+            <button class="newsletter-btn" title="Subscribe">
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2026 PlushieStore. All rights reserved. Made with love for
+            plushie lovers.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Floating Cart Button -->
+    <a href="#products" class="floating-cart-btn" title="Shopping Cart">
+      <span class="cart-float-badge">3</span>
+
+      <i class="fa-solid fa-cart-shopping"></i>
+    </a>
+
+    <!-- Floating Support Button -->
+    <a
+      href="https://t.me/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="floating-support-btn"
+    >
+      <span class="status-dot"></span>
+
+      <i class="fa-brands fa-telegram"></i>
+      Customer Support
+    </a>
+  </body>
+</html>
